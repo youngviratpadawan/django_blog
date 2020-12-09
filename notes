@@ -1,0 +1,18 @@
+pip install django
+
+python -m django --version
+
+manage.py -
+__init.py__ - Indicates that this is a py package
+settings.py -
+urls.py - different paths that can be accessed by the users
+wsgi.py - WSGI is how web appl and web server communicate
+
+List of commands - django-admin
+Create a project - django-admin startproject ProjName
+Run Server - python manage.py runserver
+CREATE A NEW APP - python manage.py startapp appname
+
+TEMPLATES
+1. By default django looks for template folders
+2. Add applications to list in project->settings.py
